@@ -6,13 +6,7 @@
  <div id="footer">
    <div class="container">
 
-  
-
-<?php
-echo "hello world";
-
- ?>
- </div>
+   </div>
  </div>
 
    </body>

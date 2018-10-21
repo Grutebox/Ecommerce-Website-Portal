@@ -54,11 +54,12 @@ function get_product(){
 //Get all the category name & display it in list in header.php file
 function getCatagory($variable ){
 	global $db;
-	$get_cats = "SELECT * FROM app_category";
-	$run_cats = mysqli_query($db, $get_cats);
+	$query = "SELECT * FROM app_category";
+	$run_cats = $db->query($query);
+	//$run_cats = mysqli_query($db, $get_cats);
 
 	if($variable=="none"){
-	while ($row_cats=mysqli_fetch_array($run_cats)){
+	while ($row_cats=$run_cats->fetch_assoc()){
 		$cat_id = $row_cats['cat_id'];
 		$category_name = $row_cats['category_name'];
 

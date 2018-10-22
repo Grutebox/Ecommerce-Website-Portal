@@ -70,10 +70,9 @@ include("banner.php");
   </div>-->
      <h1 id="potato">Potato</h1>
     <p class="Price">&#8377; 8/kg <span id="Discount">&#8377; 10/Kg</span></p><br>
-    <p>Flat 20% off</p>
-     <p><button>
-       <img src="images/basketlogo.png" alt="logo" class="basketlogo">
-       Add</button></p>
+    <p>Flat 20% off</p><br>
+    <button>
+  <span class="button-styling-add-to-cart-word">Add To Cart</span></button>
 
 </li>
 <?php  get_product() ?>

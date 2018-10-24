@@ -44,6 +44,11 @@ function get_product(){
 		</li>
 				";
 
+		echo "
+		
+
+		";
+
 	}
 
 }

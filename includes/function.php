@@ -45,7 +45,29 @@ function get_product(){
 				";
 
 		echo "
-		
+		<div class='pprods prods-card1'>
+	<div class='badge'>
+	FLAT 20% OFF
+	<img src=images/staricon.png alt='star icon'>
+	</div>
+		 <div class='prods-image'>
+		 	<a href='#'>
+			<img src='images/Products/allvegetables/$image' alt=$product_name>
+			</a>
+		</div>
+			<div class='prods-info'> $product_name<br>
+				<span class='price-per-kg-line'>Rs. $product_sellprice<span class='original-price'>Rs. $product_price</span></span><br>
+				<span>
+				<a href='#'>1 Kg</a>
+				<a href='#'>2 Kg</a>
+				<a href='#'>3 Kg</a>
+				</span>
+			 </div>
+			<div class='adddbutton'>
+			<button>
+		<span class='button-styling-add-to-cart-word'>Add To Cart</span></button>
+			</div>
+		</div>
 
 		";
 

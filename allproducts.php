@@ -30,27 +30,7 @@ FLAT 20% OFF
   </div>
 
   <!--second product-->
-    <div class="pprods prods-card1">
-  <div class="badge">
-  FLAT 20% OFF
-  <img src=images/staricon.png alt="star icon">
-  </div>
-     <div class="prods-image">
-<a href="#">       <img src="images/Products/allvegetables/beans.jpg" alt="beans image">
-  </a>   </div>
-      <div class="prods-info"> Lemons-Freshly Grown<br>
-        <span class="price-per-kg-line">Rs. 10/Kg<span class="original-price">Rs. 15</span></span><br>
-        <span>
-        <a href="#">1 Kg</a>
-        <a href="#">2 Kg</a>
-        <a href="#">3 Kg</a>
-        </span>
-       </div>
-      <div class="adddbutton">
-      <button>
-    <span class="button-styling-add-to-cart-word">Add To Cart</span></button>
-      </div>
-    </div>
+  
 
 
     <!--third product-->

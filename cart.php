@@ -49,7 +49,7 @@
 <span>Continue Shopping</span>
 </button>
 </a>
-<a href="#" class="button-position2-class ">
+<a href="#" class="button-position2-class">
   <button class="place-order-class">
     <span>Place Order</span>
   </button>
@@ -67,12 +67,8 @@
         Price Details
       </div>
 <div class=price-container>
- <div class="pricequote">
-Price <span>
-      100 Rs.</span> </div>
-      <div class="pricequote">
-     Delivery Charges <span>
-           30 Rs.</span> </div>
+ <div class="pricequote">Price <span> 100 Rs.</span> </div>
+      <div class="pricequote"> Delivery Charges <span>30 Rs.</span> </div>
            <div class="amountpayable">
 <div class="pricequote">
           Amount Payable <span>

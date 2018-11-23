@@ -64,20 +64,12 @@ include("banner.php");
 <div class="products-container">
   <ul class="yetanotherclass">
 <!--  <div class="produ">-->
-<li>
-    <img src="images/Products/potato.jpeg" alt="potato">
-  <!--   <div class="prod-trans">
-  </div>-->
-     <h1 id="potato">Potato</h1>
-    <p class="Price">&#8377; 8/kg <span id="Discount">&#8377; 10/Kg</span></p><br>
-    <p>Flat 20% off</p><br>
-    <button>
-  <span class="button-styling-add-to-cart-word">Add To Cart</span></button>
 
-</li>
+
+
 <?php  get_product() ?>
 </ul>
 <!-- footer section-->
 
 </div>
-<?php include ("footer.php"); ?>
+<?php //include ("footer.php"); ?>

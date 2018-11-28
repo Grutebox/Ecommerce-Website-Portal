@@ -26,6 +26,25 @@ if(isset($_POST['add_post'])){
   }
 
   $db->query($query);
+  
+   if(move_uploaded_file($_FILES['image']['tmp_name'] , $target)){
+    $msg = "uploaded successfully";
+  }
+  else{
+    $msg = "error";
+  }
+
+
+}
+
+if(isset($_GET['post'])){
+  $id = mysqli_real_escape_string($db , $_GET['post']);
+  $p = $db->query("SELECT * FROM posts WHERE id='$id'");
+  $p = $p->fetch_assoc();
+
+}
+
+$cats = $db->query("SELECT * FROM categories");
 
 
 
